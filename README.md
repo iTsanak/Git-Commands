@@ -2,7 +2,7 @@
 Git commands cheat sheet
 
 
-Git Basics
+#Git Basics
 
 Setup
 git config --global user.name "Your Name"
@@ -18,7 +18,7 @@ Clone an Existing Repository
 git clone <repository-url>
 ```
 
-Working with Changes
+#Working with Changes
 
 Check Status
 ```sh
@@ -40,3 +40,25 @@ Remove Files
 ```sh
 git rm <file>
 ```
+
+Move/Rename Files
+```sh
+git mv <old-name> <new-name>
+```
+
+#Branching and Merging
+
+Create a New Branch
+```sh
+git branch <branch-name>
+```
+
+Switch to a Branch
+```sh
+git checkout <branch-name>
+```
+
+```sh
+git checkout -b <branch-name>
+```
+
