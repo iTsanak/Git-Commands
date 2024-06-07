@@ -133,3 +133,20 @@ git stash list
 # Resetting and Reverting
 
 Undo Changes in Working Directory
+```sh
+git checkout -- <file>
+```
+
+Reset to Last Commit
+```sh
+git reset --hard HEAD
+```
+
+Revert a Commit
+```sh
+git revert <commit-hash>
+```
+
+# Tagging
+
+Create a Tag
