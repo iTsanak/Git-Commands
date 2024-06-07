@@ -24,3 +24,19 @@ Check Status
 ```sh
 git status
 ```
+
+Add Changes
+```sh
+git add <file>
+git add .           # Add all changes
+```
+
+Commit Changes
+```sh
+git commit -m "Commit message"
+```
+
+Remove Files
+```sh
+git rm <file>
+```
