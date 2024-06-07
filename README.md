@@ -159,3 +159,38 @@ Push Tags to Remote
 git push <remote-name> --tags
 ```
 
+# Collaboration Tips
+
+Update Local Repository
+```sh
+git pull origin main
+```
+
+Push Your Branch
+```sh
+git push origin <branch-name>
+```
+
+# Create a Pull Request (PR)
+
+1. Push your branch to the remote repository.
+2. Go to the repository on GitHub.
+3. Click "Compare & pull request".
+4. Add a description and click "Create pull request".
+
+# Advanced Commands
+
+Interactive Rebase
+```sh
+git rebase -i <commit-hash>
+```
+
+Squash Commits
+```sh
+git rebase -i HEAD~<number-of-commits>
+```
+
+Cherry Pick a Commit
+```sh
+git cherry-pick <commit-hash>
+```
