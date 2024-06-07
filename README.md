@@ -99,4 +99,20 @@ git pull <remote-name> <branch-name>
 # Inspecting Changes
 
 Show Commit History
+```sh
+git log
+```
 
+Show Changes in Files
+```sh
+git diff
+```
+
+Show a Specific Commit
+```sh
+git show <commit-hash>
+```
+
+# Stashing Changes
+
+Stash Changes
