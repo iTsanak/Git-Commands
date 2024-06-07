@@ -150,3 +150,12 @@ git revert <commit-hash>
 # Tagging
 
 Create a Tag
+```sh
+git tag <tag-name>
+```
+
+Push Tags to Remote
+```sh
+git push <remote-name> --tags
+```
+
