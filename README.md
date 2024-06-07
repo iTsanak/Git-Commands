@@ -2,7 +2,7 @@
 Git commands cheat sheet
 
 
-#Git Basics
+# Git Basics
 
 Setup
 git config --global user.name "Your Name"
@@ -46,7 +46,7 @@ Move/Rename Files
 git mv <old-name> <new-name>
 ```
 
-#Branching and Merging
+# Branching and Merging
 
 Create a New Branch
 ```sh
@@ -58,7 +58,45 @@ Switch to a Branch
 git checkout <branch-name>
 ```
 
+Create and Switch to a New Branch
 ```sh
 git checkout -b <branch-name>
 ```
+
+Merge a Branch
+```sh
+git checkout <target-branch>
+git merge <source-branch>
+```
+
+Delete a Branch
+```sh
+git branch -d <branch-name>
+```
+
+# Remote Repositories
+
+Add a Remote Repository
+```sh
+git remote add <remote-name> <remote-url>
+```
+
+Fetch Changes from Remote
+```sh
+git fetch <remote-name>
+```
+
+Push Changes to Remote
+```sh
+git push <remote-name> <branch-name>
+```
+
+Pull Changes from Remote
+```sh
+git pull <remote-name> <branch-name>
+```
+
+# Inspecting Changes
+
+Show Commit History
 
