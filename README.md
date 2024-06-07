@@ -116,3 +116,20 @@ git show <commit-hash>
 # Stashing Changes
 
 Stash Changes
+```sh
+git stash
+```
+
+Apply Stashed Changes
+```sh
+git stash apply
+```
+
+List Stashes
+```sh
+git stash list
+```
+
+# Resetting and Reverting
+
+Undo Changes in Working Directory
