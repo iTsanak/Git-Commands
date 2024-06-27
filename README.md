@@ -35,7 +35,6 @@ Commit Changes
 ```sh
 git commit -m "Commit message"
 ```
-
 Remove Files
 ```sh
 git rm <file>
