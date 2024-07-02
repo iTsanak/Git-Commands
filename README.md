@@ -192,4 +192,3 @@ git rebase -i HEAD~<number-of-commits>
 Cherry Pick a Commit
 ```sh
 git cherry-pick <commit-hash>
-```
